@@ -1,0 +1,9 @@
+default: &default
+  host: postgres
+  user: postgres
+  password: postgres
+  adapter: postgres
+
+development:
+  <<: *default
+  db: test

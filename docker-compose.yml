@@ -1,0 +1,27 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:14.8
+    # ports:
+    #   - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+    networks:
+      - api-network
+    
+  api:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/api
+    networks:
+      - api-network
+    depends_on:
+      - postgres
+
+networks: 
+  api-network:
+    driver: bridge 
