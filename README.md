@@ -16,9 +16,14 @@ sh entrypoint.sh
 ```
 
 ### Docker
-
 ```shell
 docker-compose up
+```
+
+### Test
+Obs: need docker running to test
+```shell
+crystal runtest
 ```
 
 ## Contributing
