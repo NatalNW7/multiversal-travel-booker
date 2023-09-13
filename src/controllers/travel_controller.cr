@@ -17,7 +17,7 @@ class TravelController
     optimize = context.params.query["optimize"]?
     expand = context.params.query["expand"]?
     travels = Travel.all
-    travels = expand == "true" || optimize == "true" ? RickAndMortyAPI.serialize(travels) : travels
+    travels = expand == "true" || optimize == "true" ? RickAndMortyAPI.serialize(travels, expand, optimize) : travels
 
     travels.to_json
   end
@@ -29,7 +29,7 @@ class TravelController
     travel = Travel.find(id)
 
     if travel
-      travel = expand == "true" || optimize == "true" ? RickAndMortyAPI.serialize(travel) : travel  
+      travel = expand == "true" || optimize == "true" ? RickAndMortyAPI.serialize(travel, expand, optimize) : travel  
       
       halt context, 200, travel.to_json
     else
