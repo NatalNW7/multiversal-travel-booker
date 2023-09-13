@@ -2,17 +2,24 @@
 
 Esse projeto foi feito baseado em um Code Challenge da [Milenio Capital](https://www.milenio.capital/).
 
-## Installation
-
-TODO: Write installation instructions here
+## Installation Requirements
+- [Crystal 1.8 or more](https://crystal-lang.org/reference/1.9/index.html)
+- [PostgreSQL 14.8](https://www.postgresql.org/)
+- [Docker](https://www.docker.com/)
 
 ## Usage
 
-TODO: Write usage instructions here
+### Local
+execute the entrypoint file
+```shell
+sh entrypoint.sh
+```
 
-## Development
+### Docker
 
-TODO: Write development instructions here
+```shell
+docker-compose up
+```
 
 ## Contributing
 
