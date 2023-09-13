@@ -1,6 +1,6 @@
 # Multiverse Travels Booker
 
-Esse projeto foi feito baseado em um Code Challenge da [Milenio Capital](https://www.milenio.capital/).
+Esse projeto foi feito baseado em um Code Challenge da [Milenio Capital](https://www.milenio.capital/). [Clique aqui para ver mais.](challenge.md) 
 
 ## Installation Requirements
 - [Crystal 1.8 or more](https://crystal-lang.org/reference/1.9/index.html)
