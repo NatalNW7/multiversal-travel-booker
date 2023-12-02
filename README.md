@@ -1,6 +1,6 @@
 # Multiverse Travels Booker
 
-Esse projeto foi feito baseado em um Code Challenge da [Milenio Capital](https://www.milenio.capital/). [Clique aqui para ver mais.](challenge.md) 
+Esse projeto foi feito baseado em um Code Challenge da [Milenio Capital](https://www.milenio.capital/).
 
 ## Installation Requirements
 - [Crystal 1.8 or more](https://crystal-lang.org/reference/1.9/index.html)
@@ -25,6 +25,9 @@ Obs: need docker running to test
 ```shell
 crystal runtest
 ```
+
+## Documentation
+[Api Docs.](challenge.md) 
 
 ## Contributing
 
