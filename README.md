@@ -1,6 +1,6 @@
-# Multiverse Travels Booker
+# Multiversal Travel Booker
 
-Esse projeto foi feito baseado em um Code Challenge da [Milenio Capital](https://www.milenio.capital/).
+This API is used to book travels around the multiverse of Rick and Morty
 
 ## Installation Requirements
 - [Crystal 1.8 or more](https://crystal-lang.org/reference/1.9/index.html)
@@ -10,7 +10,7 @@ Esse projeto foi feito baseado em um Code Challenge da [Milenio Capital](https:/
 ## Usage
 
 ### Local
-execute the entrypoint file
+execute the entry point file
 ```shell
 sh entrypoint.sh
 ```
